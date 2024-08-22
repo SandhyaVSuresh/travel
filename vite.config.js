@@ -13,11 +13,11 @@ export default defineConfig({
       manifest: {
         name: 'Travel guide',
         short_name: 'Travel guide',
-        description: 'My awesome Progressive Web App!',
+        description: '',
         start_url: '.',
         display: 'standalone',
         background_color: '#ffffff',
-        theme_color: '#ffffff',
+        theme_color: '#067dd0',
         icons: [
           {
             src: '/logo.svg',
