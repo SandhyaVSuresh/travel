@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"  # Optional: Only if you're using Netlify Functions
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Uncomment if you want to use Netlify Dev
+#[dev]
+#  command = "npm run dev"
+#  port = 3000
+#  publish = "dist"
