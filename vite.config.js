@@ -11,8 +11,8 @@ export default defineConfig({
         enabled: true,
       },
       manifest: {
-        name: 'My PWA App',
-        short_name: 'PWA',
+        name: 'Travel guide',
+        short_name: 'Travel guide',
         description: 'My awesome Progressive Web App!',
         start_url: '.',
         display: 'standalone',
