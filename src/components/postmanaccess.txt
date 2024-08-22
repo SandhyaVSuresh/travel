@@ -1,0 +1,9 @@
+{
+    "StatusCode": 6000,
+    "data": {
+        "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4NjY5Nzg5NCwianRpIjoiNGE5Yzk0ZTQxNDc2NGEzNDk5MGU5ZWVlNWU5Mjk2NjciLCJ1c2VyX2lkIjoyMjc3fQ.oc5phR0z5tX5RFBR2YLuprj-3t00T87Vs1ntqfJYVdo",
+        "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU1MTYxODk0LCJqdGkiOiIwOGE1MjgwOTY2MjY0ZjYzYjZjZTlmNDBjYTljNDVhNiIsInVzZXJfaWQiOjIyNzd9.SxsGvOe71RTzKM5cbIz137EQHPQAImtI0bpCt4w6rY0",
+        "role": "app_user"
+    },
+    "message": "Verified successfully"
+}
