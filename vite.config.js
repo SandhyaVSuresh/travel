@@ -14,7 +14,7 @@ export default defineConfig({
         name: 'Travel Guide',
         short_name: 'Travel Guide',
         description: 'A comprehensive travel guide app.',
-        start_url: '/',
+        start_url: '.',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#333333',
