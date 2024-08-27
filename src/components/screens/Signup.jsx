@@ -103,6 +103,11 @@ const Container = styled.div`
 const LeftContainer = styled.div`
   width: 55%;
   padding: 20px 70px 70px;
+
+  @media (max-width: 500px) {
+    width: 100%; 
+    padding: 0 3%; 
+  }
 `;
 
 const HeaderContainer = styled.div``;
@@ -112,7 +117,7 @@ const Logo = styled.img``;
 const MainHeading = styled.h1`
   font-size: 5vw;
   color: #046bf6;
-  margin-top: 200px;
+  margin-top: 150px;
   line-height: 1.4em;
 `;
 
@@ -124,6 +129,10 @@ const RightContainer = styled.div`
   justify-content: center;
   border-radius: 20px;
   padding: 10px 70px;
+  @media (max-width: 500px) {
+    width: 100%; 
+    padding: 50px 5%; 
+  }
 `;
 
 const LoginContainer = styled.div`
@@ -133,13 +142,13 @@ const LoginContainer = styled.div`
 `;
 
 const LoginHeading = styled.h3`
-  font-size: 3vw;
+  font-size: 4vw;
   font-weight: bold;
   margin-bottom: 20px;
 `;
 
 const LoginInfo = styled.p`
-  font-size: 18px;
+  font-size: 3.5vw;
   margin-bottom: 35px;
 `;
 
@@ -161,6 +170,10 @@ const TextInput = styled.input`
   border-radius: 10px;
   font-size: 18px;
   outline: none;
+  @media (max-width: 500px) {
+    font-size:3.5vw;
+    padding: 10%; 
+  }
 `;
 
 const LoginButton = styled(Link)`
@@ -168,7 +181,7 @@ const LoginButton = styled(Link)`
   justify-content: flex-end;
   margin-bottom: 25px;
   color: #046bf6;
-  font-size: 15px;
+  font-size: 3vw;
 `;
 
 const SubmitButton = styled.button`
@@ -176,9 +189,9 @@ const SubmitButton = styled.button`
   border: 0;
   outline: 0;
   color: #fff;
-  padding: 15px 40px;
+  padding: 10px 20px;
   border-radius: 50px;
-  font-size: 2vw;
+  font-size: 3vw;
   cursor: pointer;
 `;
 
