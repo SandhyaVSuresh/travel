@@ -4,9 +4,9 @@ import styled from "styled-components";
 import Header from "./includes/Header";
 import placeImg from "../../assets/images/place.svg";
 // import travelData from '../screens/api';
-import {Link} from 'react-router-dom';
-import { useEffect,useState } from "react";
-import axios from 'axios';
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function Places() {
   const [places, setPlace] = useState([]);
@@ -37,11 +37,11 @@ function Places() {
       </PlaceCard>
     ));
   };
-  
 
   return (
     <>
       <Helmet>
+        <link rel="icon" type="image/png" href="public\travel.png" />
         <title>Places | Travel Guide</title>
       </Helmet>
       <Header />
@@ -55,12 +55,12 @@ function Places() {
 }
 
 const TopContainer = styled.div`
-text-align:center;
+  text-align: center;
   padding: 20px;
 `;
 
 const Heading = styled.h1`
-text-shadow: 1px 1px 3px #000000;
+  text-shadow: 1px 1px 3px #000000;
 `;
 
 const Para = styled.p`
@@ -73,17 +73,17 @@ const PlaceContainer = styled.div`
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 30px;
 `;
 
 const PlaceCard = styled.div`
   width: 300px;
-  height:240px;
+  height: 240px;
   border-radius: 10px;
-  overflow:hidden;
-  &:hover{
-   box-shadow: 10px 10px 5px 7px gray;
+  overflow: hidden;
+  &:hover {
+    box-shadow: 10px 10px 5px 7px gray;
   }
 `;
 
@@ -121,7 +121,5 @@ const LocationIcon = styled.img`
 const LocationName = styled.p`
   margin: 0;
 `;
-
-
 
 export default Places;
