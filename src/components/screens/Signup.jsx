@@ -117,8 +117,11 @@ const Logo = styled.img``;
 const MainHeading = styled.h1`
   font-size: 5vw;
   color: #046bf6;
-  margin-top: 150px;
   line-height: 1.4em;
+  margin-top: 40%;
+  @media (max-width: 500px) {
+    margin:50vw 0;
+  }
 `;
 
 const RightContainer = styled.div`
@@ -131,7 +134,7 @@ const RightContainer = styled.div`
   padding: 10px 70px;
   @media (max-width: 500px) {
     width: 100%;
-    padding: 50px 5%;
+    padding: 10% 5%;
   }
 `;
 
@@ -139,10 +142,13 @@ const LoginContainer = styled.div`
   padding-bottom: 70px;
   border-bottom: 1px solid #fff;
   width: 100%;
+  @media (max-width: 500px) {
+    margin:50vw 0;
+  }
 `;
 
 const LoginHeading = styled.h3`
-  padding-top: 10%;
+  // padding-top: 10%;
   font-size: 3vw;
   font-weight: bold;
   margin-bottom: 20px;
