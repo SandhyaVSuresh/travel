@@ -48,7 +48,7 @@ export default function Signup() {
         <title>Signup | Travel Guide</title>
       </Helmet>
       <LeftContainer>
-        <HeaderContainer>
+        <HeaderContainer to="/">
           <Logo src={logo} alt="Image" />
         </HeaderContainer>
         <MainHeading>Travel to the best beautiful place</MainHeading>
@@ -110,7 +110,7 @@ const LeftContainer = styled.div`
   }
 `;
 
-const HeaderContainer = styled.div``;
+const HeaderContainer = styled(Link)``;
 
 const Logo = styled.img``;
 

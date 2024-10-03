@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <HeaderContainer>
-      <LeftBox>
+      <LeftBox to="/">
         <LogoImg src={logo} alt="Image" />
       </LeftBox>
       <RightBox>
@@ -38,7 +38,7 @@ const HeaderContainer = styled.div`
   padding: 10px 0;
 `;
 
-const LeftBox = styled.div`
+const LeftBox = styled(Link)`
   margin-left: 5%;
 `;
 

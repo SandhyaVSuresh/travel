@@ -53,7 +53,7 @@ function Login() {
         <title>Login | Travel Guide</title>
       </Helmet>
       <LeftContainer>
-        <HeaderContainer>
+        <HeaderContainer to="/">
           <Logo src={logo} alt="Logo" />
         </HeaderContainer>
         <MainHeading>Travel to the best beautiful place</MainHeading>
@@ -106,7 +106,7 @@ const LeftContainer = styled.div`
   }
 `;
 
-const HeaderContainer = styled.div``;
+const HeaderContainer = styled(Link)``;
 
 const Logo = styled.img``;
 
